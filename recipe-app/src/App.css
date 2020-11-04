@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.recipes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recipe-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kitchen {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+  font-family: "Dancing Script", cursive;
+  font-size: x-large;
+}
